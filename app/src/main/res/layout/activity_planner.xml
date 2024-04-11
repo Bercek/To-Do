@@ -6,32 +6,31 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/title_edit_text"
+        android:id="@+id/editTextTaskName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Title"
-        android:inputType="text"
+        android:hint="Název úkolu"
         android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/description_edit_text"
+        android:id="@+id/editTextTaskDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:hint="Popis úkolu"
         android:minHeight="48dp" />
 
     <TimePicker
-        android:id="@+id/time_picker"
+        android:id="@+id/timePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="8dp" />
 
     <Button
-        android:id="@+id/add_task_button"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonAddTask"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Add Task" />
+        android:text="Přidat úkol"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
